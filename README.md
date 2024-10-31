@@ -3,39 +3,45 @@
 Our mission was to clean the messy dataset known as “Shark Attacks” that we get [from this link](https://www.sharkattackfile.net/incidentlog.htm) 
 
 ## Summary
-This is the MVP that we are going to present to the customer.
-We applied wrangling techquines (cleaning, )
-We use Python and Pandas
-
-- A
-- B
-- C
+Our project is about identifying the seasonal and location patterns of shark activity near Florida. 
+By understanding when these encounters are most likely to occur, we can better:quip communities, local businesses, and tourists with the knowledge they need to enjoy Florida's beautiful beaches while coexisting safely with its marine wildlife.
 
 ## Dataset
 
-- Shape of dataset before (format of dates, year, country, state)
-- Transformations we applied:
-  - Replace x with y
-  - format dates with regex
-  - format year
-- final shape and relevant columns
+The dataset was really messy and we applied the following changes:
+  - Format dates with regex
+  - Format time with regex
+  - Format location (Country, State, Florida)
 
 ## Issues
 
 - No pattern in injuries
 - Multiple date/year formats
-- States are without pattern
+- No pattern in State
 - Missing values
-- unnamed columns
+- Unnamed columns
 
 ## Solutions
 
-- year: infer it from date, otherwise we dropna
-- i
+- Data Wrangling and Cleaning
+- We kept only the more relevant columns
 
-## Hypothesis
+## Non-profit Idea
+Come up with information for local businesses and policy advice for local Floridian authorities and Florida.
+- Find the 3 most “dangerous” hotspots to warn people
+
+## Hypotheses
+
+- In Florida, shark encounters can happen at any time of year, but they tend to spike in mid-spring as the waters warm up and more beachgoers head to the coast.
+- Our project is about identifying the seasonal and location patterns of shark activity near Florida. 
+By understanding when these encounters are most likely to occur, we can better equip communities, local businesses, and tourists with the knowledge they need to enjoy Florida's beautiful beaches while coexisting safely with its marine wildlife.
 
 ## Findings
-
+Most of the attacks occur in the following locations:
+- New Smyrna Beach, Volusia County.
+- Daytona Beach, Volusia County.
+- Ponce Inlet, Volusia County. 
 
 ## Conclusions
+- Potential implications for raising awareness in the hotspot areas, especially during the peak time.
+- Lack of data in developing countries.
