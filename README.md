@@ -2,7 +2,14 @@
 
 Our mission was to clean the messy dataset known as “Shark Attacks” that we get [from this link](https://www.sharkattackfile.net/incidentlog.htm) 
 
+**Resources:**
+- [Slides](https://github.com/markmorcos/ironhack-mini-project-shark-attacks/blob/main/Slides.pdf)
+- [Cleaning functions](https://github.com/markmorcos/ironhack-mini-project-shark-attacks/blob/main/cleaning.py)
+- [Date and Time](https://github.com/markmorcos/ironhack-mini-project-shark-attacks/blob/main/DateAndTime.ipynb)
+- [Country and State (incl. Diagram)](https://github.com/markmorcos/ironhack-mini-project-shark-attacks/blob/main/CountryAndState.ipynb)
+
 ## Summary
+
 Our project is about identifying the seasonal and location patterns of shark activity near Florida. 
 By understanding when these encounters are most likely to occur, we can better:quip communities, local businesses, and tourists with the knowledge they need to enjoy Florida's beautiful beaches while coexisting safely with its marine wildlife.
 
@@ -27,6 +34,7 @@ The dataset was really messy and we applied the following changes:
 - We kept only the more relevant columns
 
 ## Non-profit Idea
+
 Come up with information for local businesses and policy advice for local Floridian authorities and Florida.
 - Find the 3 most “dangerous” hotspots to warn people
 
@@ -43,5 +51,6 @@ Most of the attacks occur in the following locations:
 - Ponce Inlet, Volusia County. 
 
 ## Conclusions
+
 - Potential implications for raising awareness in the hotspot areas, especially during the peak time.
 - Lack of data in developing countries.
